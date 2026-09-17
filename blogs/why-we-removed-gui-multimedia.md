@@ -15,7 +15,7 @@ tags:
   - c++
 readTime: "8 min read"
 featuredImage: "/logo.jpg"
-status: "published"
+status: "draft"
 ---
 
 # Architecture Decision: Why We Removed GUI, Image & Video Subsystems
