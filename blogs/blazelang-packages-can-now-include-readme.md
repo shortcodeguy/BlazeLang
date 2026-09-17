@@ -20,7 +20,7 @@ featuredImage: "/logo.jpg"
 status: "published"
 ---
 
-# BlazeLang Packages Can Now Include `README.md`
+# BlazeLang Packages Can Now Include README.md
 
 BlazeLang package development is becoming more developer-friendly.
 
