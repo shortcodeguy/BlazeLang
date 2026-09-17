@@ -5,7 +5,7 @@ subtitle: "How BlazeLang moved from a Python implementation to a native C++ inte
 excerpt: "How BlazeLang moved from a Python implementation to a native C++ interpreter focused on execution speed, low overhead, and direct AST evaluation."
 category: "Architecture Decision"
 author: "Rohit Raj"
-role: "Owner"
+role: "Creator & Lead Developer"
 publishedAt: "2026-09-17"
 updatedAt: "2026-09-17"
 tags:
