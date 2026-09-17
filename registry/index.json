@@ -12,6 +12,9 @@
     },
     "blazegam3": {
       "latest": "1.1.0"
+    },
+    "blz-utils-testing-2.2.0": {
+      "latest": "2.2.0"
     }
   }
 }
