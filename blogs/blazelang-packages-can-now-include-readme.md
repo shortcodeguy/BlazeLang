@@ -15,46 +15,65 @@ tags:
   - Developer Experience
   - Ecosystem
   - Documentation
-readTime: "2 min read"
+readTime: "3 min read"
 featuredImage: "/logo.jpg"
 status: "published"
 ---
 
-BlazeLang Packages Can Now Include README.md
+# BlazeLang Packages Can Now Include `README.md`
 
 BlazeLang package development is becoming more developer-friendly.
 
-Package developers can now include a README.md file inside their packages to document what the package does, how to install it, how to use it, and what APIs it provides.
+Package developers can now include a `README.md` file directly inside their packages to document what the package does, how to install it, how to use it, and which APIs it provides.
 
-Why README.md?
+---
+
+## Why `README.md`?
 
 A package should explain itself.
 
 When developers discover a BlazeLang package, they should be able to quickly understand:
 
-What the package does
-How to install it
-How to import it
-What functions or classes it provides
-How to use it
-Any important requirements or configuration
+| Question                   | Documentation                  |
+| -------------------------- | ------------------------------ |
+| What does it do?           | Package description            |
+| How do I install it?       | Installation instructions      |
+| How do I import it?        | Import example                 |
+| What does it provide?      | API documentation              |
+| How do I use it?           | Usage examples                 |
+| Does it have requirements? | Configuration and requirements |
 
-A README.md provides a standard place for this documentation.
+A `README.md` provides a standard place for this documentation.
 
-Example Package Structure
+---
 
-A package can now contain documentation alongside its BlazeLang source files:
+## Example Package Structure
 
+A BlazeLang package can contain documentation alongside its source code:
+
+```text
 my-package/
 ├── README.md
 ├── main.blz
 ├── utils.blz
 └── package.json
+```
 
-The README can use standard Markdown.
+The important addition is:
 
-For example:
+```text
+README.md
+```
 
+The file uses standard Markdown, allowing developers to use headings, lists, code blocks, tables, links, and other Markdown features.
+
+---
+
+## Example README
+
+A simple BlazeLang package README could look like this:
+
+```markdown
 # My Package
 
 A simple utility package for BlazeLang.
@@ -74,43 +93,73 @@ Show(MyPackage.Add(10, 20))
 - Utility functions
 - Simple API
 - BlazeLang implementation
-Documentation Ships With the Package
+```
+
+This gives package users the essential information without requiring them to inspect the implementation first.
+
+---
+
+## Documentation Ships With the Package
 
 One important advantage is that the documentation stays together with the package itself.
 
-Developers don't have to maintain a separate documentation location just to explain a small package. The package can contain both the implementation and its documentation.
+Developers don't need to maintain a separate documentation location just to explain a small package.
 
-This is particularly useful for smaller utilities, libraries, and experimental packages.
+The package can contain both:
 
-Better Package Discovery
+* Implementation
+* Documentation
+
+This is particularly useful for:
+
+* Small utilities
+* Libraries
+* Developer tools
+* Experimental packages
+* Community packages
+
+---
+
+## Better Package Discovery
 
 README files also make packages easier to understand before developers start working with their source code.
 
 A good README can provide:
 
-A description of the package
-Installation instructions
-Basic usage examples
-Available APIs
-Configuration information
-Known limitations
+* **Description** — What the package is for
+* **Installation** — How to install it
+* **Usage** — How to use it
+* **API Reference** — Available functions, classes, and features
+* **Configuration** — Required settings or dependencies
+* **Examples** — Practical usage
+* **Limitations** — Known restrictions or issues
 
-This gives users the information they need without requiring them to read the entire implementation.
+This allows developers to understand a package without reading its entire implementation.
 
-A Simple Convention
+---
 
-BlazeLang doesn't need every package to have a large documentation website.
+## A Simple Convention
 
-For many packages, a simple README.md is enough.
+BlazeLang doesn't require every package to have a large documentation website.
 
-The important part is that developers have a predictable place to explain their package.
+For many packages, a simple:
 
-Building the BlazeLang Ecosystem
+```text
+README.md
+```
+
+is enough.
+
+The goal is to provide a predictable place for package documentation while keeping the package structure simple.
+
+---
+
+## Building the BlazeLang Ecosystem
 
 As the BlazeLang package ecosystem grows, developer experience becomes increasingly important.
 
-Package managers can handle installation and distribution, but documentation helps developers understand what they installed.
+A package manager can handle installation and distribution, but documentation helps developers understand what they are installing.
 
-With README.md support, BlazeLang packages can ship their code and documentation together.
+With `README.md` support, BlazeLang packages can ship their code and documentation together.
 
-Write the package. Document the package. Share the package.
+> **Write the package. Document the package. Share the package.**
