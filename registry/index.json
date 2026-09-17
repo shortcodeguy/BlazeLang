@@ -17,7 +17,16 @@
       "latest": "2.2.0"
     },
     "testing-don-t-install": {
-      "latest": "1.1.0"
+      "latest": "1.1.0",
+      "publisher": "ShortCodeGuy Studio",
+      "description": "testing-don't-install",
+      "tags": [
+        "blzp",
+        "package",
+        "network",
+        "math",
+        "cli"
+      ]
     }
   }
 }
