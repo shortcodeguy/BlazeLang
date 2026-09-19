@@ -2,7 +2,7 @@
   "registryVersion": 1,
   "packages": {
     "testing-don-t-install": {
-      "latest": "1.1.0",
+      "latest": "1.1.1",
       "publisher": "ShortCodeGuy Studio",
       "description": "testing-don't-install",
       "tags": [
