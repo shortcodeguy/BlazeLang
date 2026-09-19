@@ -18,6 +18,16 @@
     },
     "testing-do-not-install": {
       "latest": "1.0.0"
+    },
+    "hello-package": {
+      "latest": "1.0.0",
+      "publisher": "shortcodeguy_studio",
+      "description": "",
+      "tags": [
+        "blzp",
+        "package",
+        "hello-package"
+      ]
     }
   }
 }
