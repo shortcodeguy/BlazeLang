@@ -1,0 +1,17 @@
+{
+  "name": "hello-package",
+  "publisher": "shortcodeguy_studio",
+  "description": "",
+  "latest": "1.0.0",
+  "tags": [
+    "blzp",
+    "package",
+    "hello-package"
+  ],
+  "versions": {
+    "1.0.0": {
+      "download": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/hello-package/hello-package-1.0.0.blzp",
+      "sha256": "6a1215f4ac49ce85231cea3fc7f77f5eddb292375ea3966a0fe8a41eab86fbcd"
+    }
+  }
+}
