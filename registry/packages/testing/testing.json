@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "description": "testing do not install",
+  "publisher": "shortcodeguy_studio",
+  "latest": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "version": "1.0.0",
+      "publishedAt": 1790176530531,
+      "download": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/testing/testing-1.0.0.blzp",
+      "readme": "# testing"
+    }
+  },
+  "tags": [
+    "blzp",
+    "package"
+  ],
+  "updatedAt": 1790176530238
+}
