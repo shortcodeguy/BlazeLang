@@ -2,18 +2,27 @@
   "name": "testing",
   "description": "testing do not install",
   "publisher": "shortcodeguy_studio",
-  "latest": "1.0.0",
+  "latest": "1.0.1",
   "versions": {
     "1.0.0": {
       "version": "1.0.0",
       "publishedAt": 1790176530531,
       "download": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/testing/testing-1.0.0.blzp",
       "readme": "# testing"
+    },
+    "1.0.1": {
+      "version": "1.0.1",
+      "publishedAt": 1790177295986,
+      "download": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/testing/testing-1.0.1.blzp",
+      "blzpUrl": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/testing/testing-1.0.1.blzp",
+      "sha256": "86864c70bbae7331bc9c9388ce0d3b1f07993d7bc317e89163fc1a1d9a67b4d0",
+      "readme": ""
     }
   },
   "tags": [
     "blzp",
     "package"
   ],
-  "updatedAt": 1790176530238
+  "updatedAt": 1790176530238,
+  "repo": "shortcodeguy/BlazeLang"
 }
