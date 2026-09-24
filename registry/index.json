@@ -16,6 +16,15 @@
         "package",
         "hello-package"
       ]
+    },
+    "light_test": {
+      "latest": "1.0.0",
+      "publisher": "shortcodeguy_studio",
+      "description": "",
+      "tags": [
+        "blzp",
+        "package"
+      ]
     }
   }
 }
