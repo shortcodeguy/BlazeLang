@@ -1,0 +1,15 @@
+{
+  "registryVersion": 1,
+  "packages": {
+    "blaze-mail": {
+      "latest": "1.0.0",
+      "publisher": "shortcodeguy_studio",
+      "description": "Production-grade Email builder, MIME formatter, and SMTP/API client package for BlazeLang",
+      "tags": [
+        "blzp",
+        "package",
+        "blaze-mail"
+      ]
+    }
+  }
+}
