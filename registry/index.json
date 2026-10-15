@@ -1,15 +1,4 @@
 {
   "registryVersion": 1,
-  "packages": {
-    "blaze-transformer": {
-      "latest": "1.0.0",
-      "publisher": "shortcodeguy_studio",
-      "description": "Lightweight, Python-like Transformer architecture and attention toolkit for BlazeLang powered by Torch++",
-      "tags": [
-        "blzp",
-        "package",
-        "blaze-transformer"
-      ]
-    }
-  }
+  "packages": {}
 }
