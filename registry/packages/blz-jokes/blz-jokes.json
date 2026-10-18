@@ -1,0 +1,23 @@
+{
+  "name": "blz-jokes",
+  "description": "Comprehensive library of 100,000 unique developer and AI jokes for BlazeLang",
+  "publisher": "shortcodeguystudio",
+  "latest": "1.0.0",
+  "versions": {
+    "1.0.0": {
+      "version": "1.0.0",
+      "publishedAt": 1792340667414,
+      "download": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/blz-jokes/blz-jokes-1.0.0.blzp",
+      "blzpUrl": "https://raw.githubusercontent.com/shortcodeguy/BlazeLang/main/registry/packages/blz-jokes/blz-jokes-1.0.0.blzp",
+      "sha256": "e3ce2fbd7ed08fcc73b1b385f9a6dc1a57e0056bd81b520d32189dd8579929a8",
+      "readme": "# blz-jokes\n\nA developer-focused joke engine providing 100,000 unique programming and artificial intelligence jokes for BlazeLang applications.\n\n---\n\n## Installation\n\nInstall the package via the BlazeLang package manager:\n\n```bash\nblz install blz-jokes\n```\n\n---\n\n## Usage\n\n### Command Line Interface\n\nExecute the developer command directly from the terminal:\n\n```bash\nblz joke\n```\n\n---\n\n### Application Code\n\nImport the `Jokes` class and call its static methods:\n\n```javascript\nimport Jokes from \"blz-jokes\"\n\nShow(\"Jokes loaded: \" + Jokes.count())\nShow(\"Here is your joke: \" + Jokes.joke())\n```\n\n---\n\n## API Reference\n\n### `Jokes.joke()`\n- **Returns:** `String`\n- **Description:** Retrieves a randomly selected joke from the database.\n\n### `Jokes.count()`\n- **Returns:** `Integer`\n- **Description:** Returns the total number of available jokes (`100000`).\n\n---\n\n## License\n\nMIT\n"
+    }
+  },
+  "tags": [
+    "blzp",
+    "package",
+    "blz-jokes"
+  ],
+  "updatedAt": 1792340667133,
+  "readme": "# blz-jokes\n\nA developer-focused joke engine providing 100,000 unique programming and artificial intelligence jokes for BlazeLang applications.\n\n---\n\n## Installation\n\nInstall the package via the BlazeLang package manager:\n\n```bash\nblz install blz-jokes\n```\n\n---\n\n## Usage\n\n### Command Line Interface\n\nExecute the developer command directly from the terminal:\n\n```bash\nblz joke\n```\n\n---\n\n### Application Code\n\nImport the `Jokes` class and call its static methods:\n\n```javascript\nimport Jokes from \"blz-jokes\"\n\nShow(\"Jokes loaded: \" + Jokes.count())\nShow(\"Here is your joke: \" + Jokes.joke())\n```\n\n---\n\n## API Reference\n\n### `Jokes.joke()`\n- **Returns:** `String`\n- **Description:** Retrieves a randomly selected joke from the database.\n\n### `Jokes.count()`\n- **Returns:** `Integer`\n- **Description:** Returns the total number of available jokes (`100000`).\n\n---\n\n## License\n\nMIT\n"
+}
